@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ChickenMovement : MonoBehaviour
 {
-    [SerializeField] int speed = 1f;
-    [SerializeField] float limit;
+    [SerializeField] float speed = 8f;
+    //[SerializeField] float limit = 10f;
     Vector3 move;
 
     // Start is called before the first frame update
@@ -19,19 +19,21 @@ public class ChickenMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow)){
             //Debug.Log("Up Arrow");
-            transform.Translate(move.y);
+            transform.Translate(0, (Time.deltaTime * speed), 0, Camera.main.transform);
         }
-        if (Input.GetKey(KeyCode.LeftArrow)){
-            Debug.Log("Left Arrow");
+        else if (Input.GetKey(KeyCode.LeftArrow)){
+           // Debug.Log("Left Arrow");
+           transform.Translate(-(Time.deltaTime * speed), 0, 0, Camera.main.transform);
         }
-        if (Input.GetKey(KeyCode.RightArrow)){
-            Debug.Log("Right Arrow");
+        else if (Input.GetKey(KeyCode.RightArrow)){
+            //Debug.Log("Right Arrow");
+           // transform.Translate(Vector3.right * Time.deltaTime);
+           transform.Translate((Time.deltaTime * speed), 0, 0, Camera.main.transform);
         }
-        if (Input.GetKey(KeyCode.DownArrow)){
-            Debug.Log("Down Arrow");
+        else if (Input.GetKey(KeyCode.DownArrow)){
+           // Debug.Log("Down Arrow");
+           transform.Translate(Vector3.down * Time.deltaTime);
+           transform.Translate(0, -(Time.deltaTime * speed), 0, Camera.main.transform);
         }
-        move.x = Input.GetAxis("Horizontal");
-        move.y = Input.GetAxis("Vertical");
-        transform.Translate(move * speed * Time.deltaTime);
     }
 }
