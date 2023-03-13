@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 32686858}
   - component: {fileID: 32686859}
   m_Layer: 0
-  m_Name: 6ab6ed08d21f05c48e6da543e9f98f5d (2)
+  m_Name: Cloud (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 238690920}
   - component: {fileID: 238690921}
   m_Layer: 0
-  m_Name: 6ab6ed08d21f05c48e6da543e9f98f5d (5)
+  m_Name: Cloud (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 322659364}
   - component: {fileID: 322659365}
   m_Layer: 0
-  m_Name: 84184e71177a953
+  m_Name: Agua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 330564803}
   - component: {fileID: 330564804}
   m_Layer: 0
-  m_Name: 47b85f76087810c (1)
+  m_Name: Ladrillo
   m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 457037737}
   - component: {fileID: 457037738}
   m_Layer: 0
-  m_Name: 84184e71177a953 (2)
+  m_Name: Agua (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2628,7 +2628,7 @@ GameObject:
   - component: {fileID: 1057396799}
   - component: {fileID: 1057396800}
   m_Layer: 0
-  m_Name: 6ab6ed08d21f05c48e6da543e9f98f5d (4)
+  m_Name: Cloud (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3024,7 +3024,7 @@ GameObject:
   - component: {fileID: 1332353471}
   - component: {fileID: 1332353472}
   m_Layer: 0
-  m_Name: 6ab6ed08d21f05c48e6da543e9f98f5d (3)
+  m_Name: Cloud (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3786,7 +3786,7 @@ GameObject:
   - component: {fileID: 1538701054}
   - component: {fileID: 1538701055}
   m_Layer: 0
-  m_Name: 84184e71177a953 (1)
+  m_Name: Agua (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3870,7 +3870,7 @@ GameObject:
   - component: {fileID: 1554972724}
   - component: {fileID: 1554972725}
   m_Layer: 0
-  m_Name: 6ab6ed08d21f05c48e6da543e9f98f5d
+  m_Name: Cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4206,7 +4206,7 @@ GameObject:
   - component: {fileID: 1724805062}
   - component: {fileID: 1724805063}
   m_Layer: 0
-  m_Name: eb6d81d4c2418bf
+  m_Name: 'Tierra '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4416,7 +4416,7 @@ GameObject:
   - component: {fileID: 1836036474}
   - component: {fileID: 1836036475}
   m_Layer: 0
-  m_Name: eb6d81d4c2418bf (2)
+  m_Name: Tierra (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4635,7 +4635,7 @@ GameObject:
   - component: {fileID: 1991965715}
   - component: {fileID: 1991965716}
   m_Layer: 0
-  m_Name: eb6d81d4c2418bf (1)
+  m_Name: Tierra (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4948,7 +4948,7 @@ GameObject:
   - component: {fileID: 2102667752}
   - component: {fileID: 2102667753}
   m_Layer: 0
-  m_Name: 6ab6ed08d21f05c48e6da543e9f98f5d (1)
+  m_Name: Cloud (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
